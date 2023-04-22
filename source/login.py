@@ -162,7 +162,7 @@ class login:
         e_ = '%s│    %sFolls : %s%s    %s│'%(y,z,x['Followers'],' '*(18-len(x['Followers'])),y)
         if len(x['User']) > 18: a__ = '%s  %s│    %sUser  : %s...    %s│'%(a_,y,z,x['User'][:15],y)
         else: a__ = '%s  %s│    %sUser  : %s%s    %s│'%(a_,y,z,x['User'], ' '*(18-len(x['User'])),y)
-        b__ = '%s  %s│    %sFree  : %s%s    %s│'%(b_,y,z, x['Premium'],' '*(18-len(x['Premium'])),y)
+        b__ = '%s  %s│    %sFree  : %s%s    %s│'%(b_,y,z, x['Free'],' '*(18-len(x['Free'])),y)
         c__ = '%s  %s│    %sAktif : %s%s    %s│'%(c_,y,z, x['Aktivasi'],' '*(18-len(x['Aktivasi'])),y)
         d__ = '%s  %s│    %sExpre : %s%s    %s│'%(d_,y,z, x['Kadaluwarsa'],' '*(18-len(x['Kadaluwarsa'])),y)
         e__ = '%s  %s│    %sIP    : %s%s    %s│'%(e_,y,z, x['IP'],' '*(18-len(x['IP'])),y)
