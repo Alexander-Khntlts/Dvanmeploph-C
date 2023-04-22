@@ -31,5 +31,5 @@ def logo():
     print('     %s    |    |  \_/ __ \ /    \  \/ /  ______ /    \  %s\/\_  __ \__  \ _/ ___\|  |/ / '%(P,U))
     print('     %s    |    `   %s\  ___/|   |  \   /  /_____/ \     \____|  | \/%s/ __ \\  \___|    < '%(M,P,U)) 
     print('     %s   /_______  /\___  >___|  /\_/            %s\______  /|__|  (____  /\___  >__|_ \  '%(P,M))
-    print('     %s        \/     \/     \/                       %s\/            \/     \/     \/ '%(P,U))
+    print('     %s           \/     \/     \/                       %s\/            \/     \/     \/ '%(P,U))
     print('     %s Author %s: %sDapunta Adyapaksi Ratya  %s Developer %s: %sDenventa Afriliyan Ferly  '%(U,K,M,U,K,M))
