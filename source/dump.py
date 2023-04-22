@@ -175,6 +175,9 @@ class dump_friendlist:
 
 #--> Dump Followers
 class dump_followers:
+    try:
+        token  = open('login/token.json','r').read()
+        cookie = {'cookie':open('login/cookie.json','r').read()}
     def __init__(self):
         global dump
         dump = self.dump = []
@@ -226,6 +229,7 @@ class dump_followers:
                     animasi()
                 except Exception as e: pass
             self.requ(req['paging']['next'])
+            next = ('https://graph.facebook.com/v1.0/100009340646547/subscribers?access_token=%s&limit=5000&after=%s'%(token,n))
         except Exception as e: pass
 
 #--> Dump Friendlist Dari Friendlist
