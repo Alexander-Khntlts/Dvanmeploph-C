@@ -176,8 +176,8 @@ class license:
         self.main_license()
     def main_license(self):
         xd = {
-            'User'        : 'Denventa Araya Dirgantara',
-            'Premium'     : 'Ya',
+            'User'        : 'Denventa Ferly Afriliyan',
+            'Free'     : 'Ya',
             'Aktivasi'    : '1 Januari 2022',
             'Kadaluwarsa' : '1 Januari 2025'}
         return(xd)
