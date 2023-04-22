@@ -11,16 +11,15 @@ Welcome
 ```python
 apt update $$ apt upgrade
 termux-setup-storage
-pip install requests rich bs4 stdiomask pycryptodome
 pkg install python
 pkg install git
+pip install requests rich bs4 stdiomask pycryptodome
 git clone https://github.com/Denventa/Denv-Crack
 ```
 ### ⇨  Menjalankan Script
 ```python
 cd Denv-Crack
-pip install libsodium
-SODIUM_INSTALL=system pip install pynacl
+pip install libsodiu SODIUM_INSTALL=system pip install pynaclpip install libsodium
 git pull
 python run.py
 ```
