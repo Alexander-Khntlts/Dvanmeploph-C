@@ -26,9 +26,9 @@ def urut(i,t):
 #--> Logo
 def logo():
     sp = ' '*7
-    print('   %s%s________                                    __'%(sp,M))          
-    print('  %s%s\______ \   ____   _______  __ ____   _____/  |______'%(sp,M,M))   
-    print(' %s%s |    |  \_/ __ \ /    \  \/ // __ \ /    \   __\__  \'%(sp,M,M))  
+    print('   %s%s________                                    %s__'%(sp,M,U))          
+    print('  %s%s\______ \   ____   _______  __ ____   _____/  |%s______'%(sp,M,U))   
+    print(' %s%s |    |  \_/ __ \ /    \  \/ // __ \ /    \   __%s\__  \'%(sp,M,U))  
     print('%s%s |    `   \  ___/|   |  \   /\  ___/|   |  \  |  / __ \_'%(sp,M))
     print('%s%s/_______  /\___  >___|  /\_/  \___  >___|  /__| (____  /'%(sp,M))
     print('   %s%sMulti Brute Force Facebook %s0.1 By Denventa/n'%(sp,P,U))
