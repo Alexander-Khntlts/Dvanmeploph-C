@@ -25,11 +25,10 @@ def urut(i,t):
 
 #--> Logo
 def logo():
-    sp = ' '*7
-    print('     %s  _________       __                          '%(P))
-    print('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(M,P,M,P,M,P))
-    print('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,M,P))
-    print('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(M,P,M,P,M,P,M,P,M,P))
-    print('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\%s[ 0.2 ]'%(M,P,M,P,M,P,M,P,M,P,M,P,M))
-    print('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa_Dapunta     '%(P,U,Version,P,M))
+    sp = ' '*7    print('     %s________                               %s_________                       %s__ '%(M,P))    
+    print('     %s\%s______ \   ____   _______  __         \_   ___ %s\____________    ____ |  | __'%(P,M,U))
+    print('     %s|    |  \_/ __ \ /    \  \/ /  ______ /    \  %s\/\_  __ \__  \ _/ ___\|  |/ / '%(P,U))
+    print('     %s|    `   %s\  ___/|   |  \   /  /_____/ \     \____|  | \/%s/ __ \\  \___|    < '%(M,P,U)) 
+    print('     %s/_______  /\___  >___|  /\_/            %s\______  /|__|  (____  /\___  >__|_ \  '%(P,M))
+    print('     %s\/     \/     \/                       %s\/            \/     \/     \/ '%(P,U))
     print('     %s Author %s: %sDapunta Adyapaksi Ratya  %s Developer %s: %sDenventa Afriliyan Ferly  '%(U,K,M,U,K,M))
