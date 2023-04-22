@@ -19,6 +19,18 @@ P = '\x1b[38;5;231m' # Putih
 J = '\x1b[38;5;208m' # Jingga
 A = '\x1b[38;5;248m' # Abu-Abu
 
+###----------[ RICH COLOR STYLE ]---------- ###
+Z2 = "[#000000]" # Hitam
+M2 = "[#FF0000]" # Merah
+H2 = "[#00FF00]" # Hijau
+K2 = "[#FFFF00]" # Kuning
+B2 = "[#00C8FF]" # Biru
+U2 = "[#AF00FF]" # Ungu
+N2 = "[#FF00FF]" # Pink
+O2 = "[#00FFFF]" # Biru Muda
+P2 = "[#FFFFFF]" # Putih
+J2 = "[#FF8F00]" # Jingga
+A2 = "[#AAAAAA]" # Abu-Abu
 #--> Animasi
 def urut(i,t):
     for e in i + '\n': sys.stdout.write(e); sys.stdout.flush(); time.sleep(t)
@@ -26,12 +38,12 @@ def urut(i,t):
 #--> Logo
 def logo():
     sp = ' '*7
-    print('   %s%s________                                    __'%(sp,M))          
-    print('  %s%s\______ \   ____   _______  __ ____   _____/  |______'%(sp,M))   
-    print(' %s%s |    |  \_/ __ \ /    \  \/ // __ \ /    \   __\__  \%'(sp,M))  
-    print('%s%s |    `   \  ___/|   |  \   /\  ___/|   |  \  |  / __ \_'%(sp,M))
-    print('%s%s/_______  /\___  >___|  /\_/  \___  >___|  /__| (____  /'%(sp,M))
-    print('   %s%sMulti Brute Force Facebook %s0.1 By Denventa/n'%(sp,P,U))
-    urut('       %s%s─────────────── %s• %sDenventa %s• %s───────────────\n%s'%(sp,Z,M,P,M,Z,P),0.005)
+  Tampilan_Logo = f"""
+{M2}________                                    __          
+{M2}\______ \   ____   _______  __ ____   _____/  |{U2}______   
+ {M2}|    |  \_/ __ \ /    \  \/ // __ \ /    \   __{U2}\__  \  
+ {M2}|    `   \  ___/|   |  \   /\  ___/|   |  \  |  {U2}/ __ \_
+{M2}/_______  /\___  >___|  /\_/  \___  >___|  /__| {U2}(____  /
+        {M2}\/     \/     \/          \/     \/          {U2}\/"""
 
           
