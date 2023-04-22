@@ -26,10 +26,10 @@ def urut(i,t):
 #--> Logo
 def logo():
     sp = ' '*7
-    print('   %s%s________                                    __          '%(sp,M,M))
-    print('  %s%s\______ \   ____   _______  __ ____   _____/  |______   '%(sp,M,M))
-    print(' %s%s |    |  \_/ __ \ /    \  \/ // __ \ /    \   __\__  \  '%(sp,M,P,M))
-    print('%s%s |    `   \  ___/|   |  \   /\  ___/|   |  \  |  / __ \_'%(sp,M,P,M))
-    print('%s%s/_______  /\___  >___|  /\_/  \___  >___|  /__| (____  /'%(sp,M,M))
-    print('   %s%sMulti Brute Force Facebook 0.1 By Denventan'%(sp,P,M,M,P,M))
+    print('   %s%s________                                    __          '%(sp,M))
+    print('  %s%s\______ \   ____   _______  __ ____   _____/  |______   '%(sp,M))
+    print(' %s%s |    |  \_/ __ \ /    \  \/ // __ \ /    \   __\__  \  '%(sp,M))
+    print('%s%s |    `   \  ___/|   |  \   /\  ___/|   |  \  |  / __ \_'%(sp,M))
+    print('%s%s/_______  /\___  >___|  /\_/  \___  >___|  /__| (____  /'%(sp,M))
+    print('   %s%sMulti Brute Force Facebook 0.1 By Denventa\n'%(sp,P))
     urut('       %s%s─────────────── %s• %sDenventa %s• %s───────────────\n%s'%(sp,Z,M,P,M,Z,P),0.005)
