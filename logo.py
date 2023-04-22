@@ -31,4 +31,6 @@ def logo():
     print('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,M,P))
     print('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(M,P,M,P,M,P,M,P,M,P))
     print('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\%s[ 0.2 ]'%(M,P,M,P,M,P,M,P,M,P,M,P,M))
-    print('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,M,Version,P,M))
+    print('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa_Dapunta     '%(P,M,Version,P,M))
+    print('     %s Author %s: %sDapunta Adyapaksi Ratya  '%(P,K,M))
+    print('     %s Author %s: %sDenventa Afriliyan Ferly  '%(P,K,M))
