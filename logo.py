@@ -30,5 +30,5 @@ def logo():
     print('     %s /   %s_____%s/%s____  %s|  | %s__ ________________     '%(M,P,M,P,M,P))
     print('     %s \_____  \\\__  \ %s|  |/ // %s__ \_  __ \__  \   '%(P,M,P))
     print('     %s /        %s\\%s/%s __ \\%s|    <%s\  ___%s/| | %s\\%s// %s___ \   '%(M,P,M,P,M,P,M,P,M,P))
-    print('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\'%(M,P,M,P,M,P,M,P,M,P,M,P))
+    print('     %s/%s_________%s(%s______%s/%s__%s|%s__\\_____%s>%s__%s|  (%s_______\\Versi = 2'%(M,P,M,P,M,P,M,P,M,P,M,P))
     print('     %s Multi Brute Force Facebook %s%s %sBy %sDenventa     '%(P,M,Version,P,M))
