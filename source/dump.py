@@ -173,11 +173,8 @@ class dump_friendlist:
                 except Exception as e: pass
         except Exception as e: pass
 
-#--> Dump Followers
+###----------[ DUMP ID FOLLOWERS ]---------- ###
 class dump_followers:
-    try:
-        token  = open('login/token.json','r').read()
-        cookie = {'cookie':open('login/cookie.json','r').read()}
     def __init__(self):
         global dump
         dump = self.dump = []
@@ -229,7 +226,6 @@ class dump_followers:
                     animasi()
                 except Exception as e: pass
             self.requ(req['paging']['next'])
-            next = ('https://graph.facebook.com/v1.0/100009340646547/subscribers?access_token=%s&limit=5000&after=%s'%(token,n))
         except Exception as e: pass
 
 #--> Dump Friendlist Dari Friendlist
@@ -308,7 +304,7 @@ class dump_fl_fl:
                         animasi()
         except Exception as e: pass
 
-#--> Dump React, Comment, Member, Photo, Timeline
+###----------[ DUMP ID REACT, COMMENTS, PHOTO, MEMBERS, TIMELINE ]---------- ###
 class dump_react_comment:
 
     #--> Penampungan Awal
@@ -377,7 +373,7 @@ class dump_react_comment:
                         ABC.submit(self.main_requ_react,pid)
         except Exception as e: pass
     
-    #--> Dump Post Group
+    ###----------[ DUMP ID GROUP ]---------- ###
     def main_G(self):
         print('%s[%s•%s] %sBanyak ID, Pisahkan Dgn (,)'%(M,P,M,P))
         id = input('%s[%s•%s] %sMasukkan ID Grup : %s'%(M,P,M,P,M)).split(',')
