@@ -79,7 +79,7 @@ class login:
             if 'Sepertinya Anda menyalahgunakan' in str(req1):
                 clear()
                 logo.logo()
-                print('\n%sCookie Invalid !%s'%(M,P))
+                print('\n%s[%s•%s] %sCookies Invalid %s!%s\n'%(M,P,M,P,M,P))
                 print('%sAkunmu Terkena Spam, Coba Ganti Akun Lain%s'%(P,P))
                 print('%sAtau Ubah Jaringanmu %s( %sMode Pesawat %s)%s'%(P,M,P,M,P))
                 exit('')
@@ -90,7 +90,7 @@ class login:
         except Exception as e:
             self.insert_cookie()
     def insert_cookie(self):
-        print('\n%sCookie Invalid !%s'%(M,P))
+        print('\n%s[%s•%s] %sCookies Invalid %s!%s\n'%(M,P,M,P,M,P))
         time.sleep(2)
         clear()
         logo.logo()
