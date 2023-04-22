@@ -10,9 +10,8 @@ Welcome
 ### ⇨  Install Script Di Termux
 ```python
 apt update $$ apt upgrade
-termux-setup-storage  
-   • Enter  
-   • Ketik y Atau Pilih Izinkan
+termux-setup-storage
+pip install requests rich bs4 stdiomask pycryptodome
 pkg install python
 pkg install git
 git clone https://github.com/Denventa/Denv-Crack
