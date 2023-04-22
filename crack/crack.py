@@ -1,8 +1,9 @@
 #--> Author's Info
-Author    = 'Dapunta Khurayra X'
+Author    = 'Dapunta Adyapaksi Ratya'
 Developer = 'Denventa Ferly Afriliyan'
 Facebook  = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
 Instagram = 'Instagram.com/afriliyanferlly_shishigami'
+Version = '0.1'
 
 #--> Import Module
 import os, sys, requests, bs4, re, time, datetime, random
