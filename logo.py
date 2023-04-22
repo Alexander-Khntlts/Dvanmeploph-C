@@ -32,6 +32,6 @@ def logo():
     print('%s%s |    `   \  ___/|   |  \   /\  ___/|   |  \  |  / __ \_'%(sp,M))
     print('%s%s/_______  /\___  >___|  /\_/  \___  >___|  /__| (____  /'%(sp,M))
     print('   %s%sMulti Brute Force Facebook %s0.1 By Denventa/n'%(sp,P,U))
-    print('       %s%s─────────────── %s• %sDenventa %s• %s───────────────\n%s'%(sp,Z,M,P,M,Z,P))
+    urut('       %s%s─────────────── %s• %sDenventa %s• %s───────────────\n%s'%(sp,Z,M,P,M,Z,P))
 
           
