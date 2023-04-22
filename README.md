@@ -19,7 +19,7 @@ git clone https://github.com/Denventa/Denv-Crack
 ### ⇨  Menjalankan Script
 ```python
 cd Denv-Crack
-pip install libsodiu SODIUM_INSTALL=system pip install pynaclpip install libsodium
+pip install libsodium SODIUM_INSTALL=system pip install pynacl
 git pull
 python run.py
 ```
