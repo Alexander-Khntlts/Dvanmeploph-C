@@ -15,11 +15,11 @@ termux-setup-storage
    • Ketik y Atau Pilih Izinkan
 pkg install python
 pkg install git
-git clone https://github.com/Denventa/DenvAfr
+git clone https://github.com/Denventa/Sakera-0.2-
 ```
 ### ⇨  Menjalankan Script
 ```python
-cd DenvAfr
+cd Sakera-0.2-
 git pull
 python run.py
 ```
