@@ -210,7 +210,7 @@ def get_publickey():
         for x,y in req:
             open('login/publickey.json','w').write('%s|%s'%(x,y))
     except Exception as e:
-        open('login/publickey.json','w').write('Denventa')
+        open('login/publickey.json','w').write('Dapunta')
 
 class proxyscrape:
     def __init__(self):
