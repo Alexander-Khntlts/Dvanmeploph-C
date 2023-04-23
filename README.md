@@ -14,11 +14,11 @@ termux-setup-storage
 pkg install python
 pkg install git
 pip install requests rich bs4 stdiomask pycryptodome
-git clone https://github.com/Denventa/Denv-Crack
+git clone https://github.com/Denventa/denv-crack
 ```
 ### ⇨  Menjalankan Script
 ```python
-cd Denv-Crack
+cd denv-crack
 git pull
 python run.py
 ```
