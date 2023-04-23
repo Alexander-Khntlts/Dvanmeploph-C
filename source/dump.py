@@ -845,7 +845,7 @@ class simpan_file:
 
 #--> Warning
 def belum_bisa():
-    print('Sorry Bos, Fiturnya Belum Tersedia\nMasih Pusing Mikirin Logikanya\nDoakan Semoga Cepat Selesai Yaa!\nSemoga SC Ini Bisa Membantu Orang Banyak...\nTerima Kasih!\n\n- Dapunta Khurayra X & Denventa Afriliyan Ferly Khurayra Shishigami X')
+    print('Sorry Bos, Fiturnya Belum Tersedia\nMasih Pusing Mikirin Logikanya\nDoakan Semoga Cepat Selesai Yaa!\nSemoga SC Ini Bisa Membantu Orang Banyak...\nTerima Kasih!\n\n- Dapunta Adyapaksi Ratya X & Denventa Afriliyan Ferly Khurayra Shishigami X')
     exit()
 
 # 100090682164277,100085567128204,100088661097809
