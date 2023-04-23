@@ -21,4 +21,6 @@ git clone https://github.com/Denventa/Denv-Crack
 cd Denv-Crack
 git pull
 python run.py
+pip install libsodium
+SODIUM_INSTALL=system pip install pynacl
 ```
