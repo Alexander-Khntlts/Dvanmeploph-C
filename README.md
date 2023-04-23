@@ -21,6 +21,15 @@ git clone https://github.com/Denventa/Denv-Crack
 cd Denv-Crack
 git pull
 python run.py
-pip install libsodium
-SODIUM_INSTALL=system pip install pynacl
 ```
+### ⇨ Jika Muncul Tulisan Sebagai Berikut : 
+### Module pynacl Belum Terpasang !
+
+### Anda Menggunakan Linux ( Ex : Termux Android ),                                                                    
+### Ketik :
+###   $ pkg install libsodium                                                                                           
+###   $ SODIUM_INSTALL=system pip install pynacl
+### Setelah Menjalankan [ python run.py ]
+### Harap Jalankan Perintah Yang Telah Tertera
+
+
