@@ -29,15 +29,15 @@ def waktu():
 
 #--> Encrypt Facebook Password
 def encpass(pw,wkt):
-    sci = 'DapuntaLoveRanii'
+    dfa = 'DenventaFerlyAfrili'
     try:
         sem = open('login/publickey.json','r').read()
-        if sem == 'Dapunta':
-            return ('#PWD_BROWSER:%s:%s:%s'%(str(len(sci)-11),wkt,pw))
+        if sem == 'Denventa':
+            return ('#PWD_BROWSER:%s:%s:%s'%(str(len(dfa)-11),wkt,pw))
         else:
-            return ('#PWD_BROWSER:%s:%s:%s'%(str(len(sci)-11),wkt,pw))
+            return ('#PWD_BROWSER:%s:%s:%s'%(str(len(dfa)-11),wkt,pw))
     except Exception as e:
-        return ('#PWD_BROWSER:%s:%s:%s'%(str(len(sci)-11),wkt,pw))
+        return ('#PWD_BROWSER:%s:%s:%s'%(str(len(dfa)-11),wkt,pw))
 
 #--> User Agent Samsung
 def random_ua_samsung():
