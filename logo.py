@@ -5,7 +5,7 @@ Facebook  = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
 Instagram = 'Instagram.com/afriliyanferlly_shishigami'
 Version = '0.1'
 
-#--> oImprt Module
+#--> Import Module
 import sys, time
 
 #--> Style Warna
@@ -33,4 +33,4 @@ def logo():
     print('     %s    |    `   %s\  ___/|   |  \   /  /_____/ \     \____|  | \/%s/ __ \\  \___|    < '%(M,P,M)) 
     print('     %s   /_______  /\___  >___|  /\_/            %s\______  /|__|  (____  /\___  >__|_ \  '%(P,M))
     print('     %s           \/     \/     \/                       %s\/            \/     \/     \/ '%(P,M))
-    print('     %s Author %s: %sDapunta Adyapaksi Ratya  %s Developer %s: %sDenventa Afriliyan Ferly  '%(U,K,M,U,K,M))
+    print('     %s Author %s: %sDapunta Adyapaksi Ratya  %s Developer %s: %sDenventa Afriliyan Ferly  '%(P,K,M,P,K,M))
