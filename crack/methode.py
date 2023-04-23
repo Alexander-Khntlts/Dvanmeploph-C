@@ -171,7 +171,7 @@ def regular_new(id,pw,host,us,pr):
     r.headers.update({'Host':host, 'Connection':'keep-alive', 'Keep-Alive':'timeout=5, max=1000', 'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'accept-encoding':'gzip, deflate', 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7', 'cache-control':'max-age=0', 'x-requested-with':'XMLHttpRequest', 'sec-ch-ua':'"Not_A Brand";v="99", "Google Chrome";v="%s", "Chromium";v="%s"'%(cvs,cvs), 'sec-ch-ua-mobile':'?1', 'sec-ch-ua-platform':'"Android"', 'sec-fetch-dest':'empty', 'sec-fetch-mode':'cors', 'sec-fetch-site':'same-origin', 'sec-fetch-user':'?1', 'upgrade-insecure-requests':'1', 'user-agent':ua})
     apk = ['1109457329750736', '8777520805621155', '1322012231924815', '3391720001097849', '920308788960556', '1227057568249628']
     app = random.choice(apk)
-    gth = 'https://github.com/Dapunta'
+    gth = 'https://github.com/Denventa'
     url = f'https://{host}/login.php?email={id}&skip_api_login=1&app_id={app}&next=https://{host}/dialog/oauth?client_id={app}%26redirect_uri={gth}&locale=id_ID&refsrc=deprecated&shbl=0'
     req = bs(r.get(url).content,'html.parser')
     raq = req.find('form',{'method':'post'})
@@ -215,7 +215,7 @@ def validate_new(id,pw,host,us,pr):
     r.headers.update({'Host':host, 'Connection':'keep-alive', 'Keep-Alive':'timeout=5, max=1000', 'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'accept-encoding':'gzip, deflate', 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7', 'cache-control':'max-age=0', 'x-requested-with':'XMLHttpRequest', 'sec-ch-ua':'"Not_A Brand";v="99", "Google Chrome";v="%s", "Chromium";v="%s"'%(cvs,cvs), 'sec-ch-ua-mobile':'?1', 'sec-ch-ua-platform':'"Android"', 'sec-fetch-dest':'empty', 'sec-fetch-mode':'cors', 'sec-fetch-site':'same-origin', 'sec-fetch-user':'?1', 'upgrade-insecure-requests':'1', 'user-agent':ua})
     apk = ['1109457329750736', '8777520805621155', '1322012231924815', '3391720001097849', '920308788960556', '1227057568249628']
     app = random.choice(apk)
-    gth = 'https://github.com/Dapunta'
+    gth = 'https://github.com/Denventa'
     url = f'https://{host}/login/device-based/password/?uid={id}&flow=login_no_pin&skip_api_login=1&app_id={app}&next=https://{host}/dialog/oauth?client_id={app}%26redirect_uri={gth}&locale=id_ID&refsrc=deprecated&shbl=0'
     req = bs(r.get(url).content,'html.parser')
     raq = req.find('form',{'method':'post'})
@@ -256,7 +256,7 @@ def async_new(id,pw,host,us,pr):
     r.headers.update({'Host':'m.facebook.com', 'Connection':'keep-alive', 'Keep-Alive':'timeout=5, max=1000', 'accept':'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'accept-encoding':'gzip, deflate', 'accept-language':'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7', 'cache-control':'max-age=0', 'x-requested-with':'XMLHttpRequest', 'sec-ch-ua':'"Not_A Brand";v="99", "Google Chrome";v="%s", "Chromium";v="%s"'%(cvs,cvs), 'sec-ch-ua-mobile':'?1', 'sec-ch-ua-platform':'"Android"', 'sec-fetch-dest':'empty', 'sec-fetch-mode':'cors', 'sec-fetch-site':'same-origin', 'sec-fetch-user':'?1', 'upgrade-insecure-requests':'1', 'user-agent':ua})
     apk = ['1109457329750736', '8777520805621155', '1322012231924815', '3391720001097849', '920308788960556', '1227057568249628']
     app = random.choice(apk)
-    gth = 'https://github.com/Dapunta'
+    gth = 'https://github.com/Denventa'
     url = f'https://{host}/login.php?email={id}&skip_api_login=1&app_id={app}&next=https://{host}/dialog/oauth?client_id={app}%26redirect_uri={gth}&locale=id_ID&refsrc=deprecated&shbl=0'
     req = bs(r.get(url).content,'html.parser')
     raq = req.find('form',{'method':'post'})
