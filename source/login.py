@@ -1,9 +1,9 @@
 #--> Author's Info
-Author    = 'Dapunta Khurayra X'
-Facebook  = 'Facebook.com/Dapunta.Khurayra.X'
-Instagram = 'Instagram.com/Dapunta.Ratya'
-Whatsapp  = '082245780524'
-YouTube   = 'Youtube.com/channel/UCZqnZlJ0jfoWSnXrNEj5JHA'
+Author    = 'Dapunta Adyapaksi Ratya'
+Developer = 'Denventa Ferly Afriliyan'
+Facebook  = 'Facebook.com/Denventa.Xayonara.Team.UnlimitedARMY'
+Instagram = 'Instagram.com/afriliyanferlly_shishigami'
+Version = '0.1'
 
 #--> Import Module
 import os, sys, requests, bs4, re, time, datetime
@@ -91,13 +91,14 @@ class login:
         except Exception as e:
             self.insert_cookie()
     def insert_cookie(self):
-        print('\n%sCookie Invalid !%s'%(M,P))
+        print('\n%s[%s•%s] %sCookies Invalid %s!%s\n'%(M,P,M,P,M,P))
         time.sleep(2)
         clear()
         logo.logo()
-        print('%s[%s!%s] %sApabila Akun A2F On, Pergi Ke'%(M,P,M,P))
-        print('%s[%s-%s] %shttps://business.facebook.com/business_locations'%(H,P,H,P))
-        print('%s[%s-%s] %sUntuk Memasukkan Kode Autentikasi\n'%(H,P,H,P))
+        print('\n%s[%s•%s] %sJangan Gunakan Akun Pribadi %s!'%(M,P,M,P,M))
+        print('%s[%s•%s] %sApabila Akun A2F On, Pergi Ke'%(M,P,M,P))
+        print('%s[%s+%s] %shttps://business.facebook.com/business_locations'%(M,P,M,P))
+        print('%s[%s+%s] %sUntuk Memasukkan Kode Autentikasi\n'%(M,P,M,P))
         ciko = input('%sMasukkan Cookie %s: %s'%(P,M,H))
         self.token_eaag = self.generate_token_eaag(ciko)
         self.token_eaat = self.generate_token_eaat(ciko)
@@ -177,7 +178,7 @@ class license:
         self.main_license()
     def main_license(self):
         xd = {
-            'User'        : 'Denventa Araya Dirgantara',
+            'User'        : 'Dapunta Adyapaksi Ratya',
             'Premium'     : 'Ya',
             'Aktivasi'    : '1 Januari 2022',
             'Kadaluwarsa' : '1 Januari 2025'}
