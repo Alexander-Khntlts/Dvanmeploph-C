@@ -13,7 +13,10 @@ apt update $$ apt upgrade
 termux-setup-storage
 pkg install python
 pkg install git
-pip install requests rich bs4 stdiomask pycryptodome
+pip install requests 
+pip install rich
+pip install bs4
+pip install stdiomask pycryptodome
 git clone https://github.com/Denventa/denv-crack
 ```
 ### ⇨  Menjalankan Script
