@@ -17,7 +17,7 @@ pip install requests
 pip install rich
 pip install bs4
 pip install stdiomask pycryptodome
-git clone https://github.com/Denventa/denv-crack
+git clone https://github.com/Dvanmeploph/denv-crack
 ```
 ### ⇨  Menjalankan Script
 ```python
